@@ -1,0 +1,139 @@
+body {
+    background-color: #fff8f0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #8b5e3c;
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+h1{
+   font-size: 50px;
+}
+
+h2 {
+    color:#8b5e3c;
+    text-align: center;
+    font-size: 28px;
+}
+h3 {
+    color:#a66b45;
+    text-align: center;
+    font-size: 22px;
+}
+section {
+    background-color: #f3e5d0;
+    margin:25px;
+    padding:20px;
+    border-radius: 10px;
+}
+p {
+    color:#2f0d05;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+}
+section img {
+    width: 180px;
+    height: 140px;
+    object-fit: contain;
+    display: block;
+    margin: 15px auto;
+}
+
+.categoria {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #f3e5d0;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.categoria img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+
+.produtos {
+    flex: 1;
+}
+
+.produtos h3 {
+    text-align: left;
+}
+
+.produtos p {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    color: #e639a7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.destaque-card {
+  background-color: #fff8e8; /* Um tom levemente amarelado/creme para destacar */
+  border: 1px dashed #d4af37; /* Borda elegante */
+  padding: 15px;
+  border-radius: 6px;
+  max-width: 220px;
+  text-align: center;
+}
+
+.selo-favorito {
+  font-weight: bold;
+  color: #b8860b;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bloco-combo-dia {
+  background: #fff8e8;
+  border: 1px solid #e0a800;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 260px;
+  text-align: center;
+}
+
+.tag-destaque {
+  background: #e87c78;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.bloco-combo-dia h3 {
+  margin: 10px 0 5px 0;
+  font-size: 1rem;
+}
+
+.descricao {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.preco-antigo {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.85rem;
+  margin-right: 5px;
+}
+
+.preco-novo {
+  color: #28a745;
+  font-weight: bold;
+}
