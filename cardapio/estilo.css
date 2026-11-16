@@ -7,7 +7,7 @@ body {
 header {
     background-color: #8b5e3c;
     color: white;
-    text-align: left;
+    text-align: center;
     padding: 30px;
 }
 
@@ -36,6 +36,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 1.8;
+    text-align: center;
 }
 section img {
     width: 180px;
@@ -145,4 +146,10 @@ footer {
   padding: 15px;
   max-width: 260px;
   text-align: center;
+}
+a {
+  color:#f3e5d0
+}
+.f2{
+    background-color:#a66b45
 }
